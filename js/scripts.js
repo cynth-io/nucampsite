@@ -13,3 +13,17 @@ $(function() {
         }
     });
 });
+
+//--reservation button functions//
+$(function() {
+    $("#reserveButton").on('click',function(){
+        $('#reserveModal').modal('show');
+    });
+});
+
+//--login button functions//
+$(function() {
+    $("#loginButton").on('click',function(){
+        $('#loginModal').modal('show');
+    });
+});
